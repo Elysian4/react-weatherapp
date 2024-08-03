@@ -40,7 +40,7 @@ const Search = ({ onSearchChange }) => {
       debounceTimeout={600}
       value={search}
       onChange={handleOnChange}
-      loadOptions={loadOptions} // Ensure the casing is correct
+      loadOptions={loadOptions}
     />
   );
 };
